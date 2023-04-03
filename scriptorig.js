@@ -30,7 +30,7 @@ year = parseInt(prompt("Please enter your Birth Year:"));
 age = 2023 - year;
 
 if(confirm("Do you want to use a custom profile picture?")){
-    photo = prompt("Please enter the file name of the picture. (Ex: wow.jpg )\n");
+    photo = prompt("Please enter the file name of the picture. (Ex: prof.png )\n");
     document.getElementById("ppic").setAttribute("src",photo);
     alert("Profile picture has been updated.");
 }
